@@ -1,4 +1,5 @@
-require 'vendor/gems/environment'
+require 'rubygems'
+require 'bundler/setup'
 require 'mq'
 require 'twitter/json_stream'
 

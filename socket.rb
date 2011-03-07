@@ -1,4 +1,5 @@
-require 'vendor/gems/environment'
+require 'rubygems'
+require 'bundler/setup'
 require 'em-websocket'
 require 'uuid'
 require 'mq'
